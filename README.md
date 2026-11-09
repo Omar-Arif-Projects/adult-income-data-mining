@@ -96,7 +96,7 @@ Accuracy has a threshold of 0.70, simplicity is based on the number of leaves, l
 | IGR_35_4 / IGR_35_2 | 0.83 | 6 | 1.19 | Yes | 0.9398 |
 | ENTROPY_35_2 / GINI_35_2 | 0.83 | 8 | 1.16 | Yes | 0.9338 |
 
-Across all trees, accuracy ranged from 0.76 (CHAID) to 0.83. CHAID produced the simplest but least accurate trees. The full table of all 16 trees and every node setting is in [`pipeline_summary.md`](pipeline_summary.md).
+Across all trees, accuracy ranged from 0.76 (CHAID) to 0.83. CHAID produced the simplest but least accurate trees. The full table of all 16 trees and every node setting is in [`pipelines/pipeline_summary.md`](pipelines/pipeline_summary.md).
 
 ### The best small tree
 
@@ -138,8 +138,8 @@ To explain the km_3 clusters, four decision trees were fit with the cluster ID a
 
 | File | Description |
 |---|---|
-| [`pipeline_summary.md`](pipeline_summary.md) | Readable summary of both pipelines: every node, its settings, and the results tables |
-| [`Data_Mining.zip`](Data_Mining.zip) | Model Studio project export |
+| [`pipelines/pipeline_summary.md`](pipelines/pipeline_summary.md) | Readable summary of both pipelines: every node, its settings, and the results tables |
+| [`pipelines/Data_Mining.zip`](pipelines/Data_Mining.zip) | Model Studio project export |
 
 ## Reproducing the project
 
