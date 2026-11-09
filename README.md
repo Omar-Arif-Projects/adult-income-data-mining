@@ -6,7 +6,7 @@ A data mining project that predicts whether a person earns more than $50K a year
 
 - Hashem Alharthi
 - [Omar Arif](https://github.com/Omar-Arif-Projects)
-- Abubakr Alattas
+- [Abubakr Alattas](https://github.com/AbubakrAlattas)
 - [Faris Alharbi](https://github.com/FaresAlharbi21)
 
 ## Project at a glance
