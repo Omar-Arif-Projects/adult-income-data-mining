@@ -69,7 +69,15 @@ The preprocessing pipeline is Data, then Replacement, then Imputation.
 - **Capital gain and loss:** both are heavily zero-inflated with a few extreme outliers.
 - **Correlations:** the numeric variables are only weakly correlated with each other, which suits tree-based models.
 
+![Education vs income](images/education-vs-income.png)
+
+*Income level by education level. Higher degrees have a much larger share of `>50K` earners.*
+
 ## Modeling: decision trees
+
+![Pipeline 1 diagram](images/pipeline.png)
+
+*Diagram of the classification pipeline in Model Studio.*
 
 Sixteen trees were built by varying three settings:
 
@@ -112,6 +120,12 @@ relationship
 ```
 
 Relationship status and education are the two variables that separate the classes best.
+
+![Best decision tree, ENTROPY_6_2](images/best-tree.png)
+
+![Lift chart for ENTROPY_6_2 across train, validation and test](images/lift-chart.png)
+
+*The lift curves for the training, validation and test partitions follow each other closely, which shows the model is stable.*
 
 ## Segmentation: k-means
 
